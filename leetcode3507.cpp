@@ -13,13 +13,13 @@ public:
     }
 
     int minimumPairRemoval(vector<int>& nums) {
-        int operans = 0;
+        int operations = 0;
         while (!is_sorted(begin(nums), end(nums))) {
             int index = minPairSum(nums);
             nums[index] = nums[index] + nums[index + 1];
             nums.erase(begin(nums) + index + 1);
-            operans++;
+            operations++;
         }
-        return operans;
+        return operatins;
     }
 };
