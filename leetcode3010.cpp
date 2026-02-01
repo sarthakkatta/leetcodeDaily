@@ -1,5 +1,5 @@
 /*
-Problem: Minimum Cost
+Problem: Minimum Cost 
 
 Approach:
 1. Store first element separately.
