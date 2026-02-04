@@ -7,7 +7,7 @@ Approach:
    0 → not started
    1 → increasing
    2 → decreasing 
-   3 → increasing again (final phase)
+   3 → increasing again (final phase) 
 3. At each index, either skip element or take it if it follows trend rules.
 4. When trend reaches 3, we allow ending the sequence.
 5. Use memoization to avoid recomputation.
