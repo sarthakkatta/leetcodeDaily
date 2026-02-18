@@ -7,7 +7,7 @@ Approach:
 3. Check if result is power of 2 minus 1 using (res & (res+1)).
 4. If true → alternating bits exist.
 
-Time Complexity: O(1)
+Time Complexity: O(1) 
 Space Complexity: O(1)
 */
 
