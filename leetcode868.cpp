@@ -5,7 +5,7 @@ Problem: LeetCode 868 – Binary Gap
 Approach:
 1. Traverse bits of number using right shift.
 2. Track position of last set bit.
-3. When new set bit is found, calculate distance from last set bit.
+3. When new set bit is found, calculate distance from last set bit. 
 4. Update maximum distance.
 5. Return maximum distance.
 
