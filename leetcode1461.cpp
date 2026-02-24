@@ -5,7 +5,7 @@ Problem: LeetCode 1461 – Check If a String Contains All Binary Codes of Size K
 Approach:
 1. If k > length of string, return false.
 2. Use unordered_set to store all substrings of length k.
-3. Traverse string and insert each substring of length k.
+3. Traverse string and insert each substring of length k. 
 4. Total possible binary codes of size k = 2^k.
 5. If set size equals 2^k, return true, else false.
 
