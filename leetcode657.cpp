@@ -5,7 +5,7 @@
     - Track movement in x (vertical) and y (horizontal) directions
     - U -> x++
     - D -> x--
-    - L -> y++
+    - L -> y++ 
     - R -> y--
     - If final position is (0,0), return true
 */
