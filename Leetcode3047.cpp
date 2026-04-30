@@ -2,7 +2,7 @@
  Problem: Largest Square Area
 
  Approach:
- - For every pair of rectangles, compute their intersection
+ - For every pair of rectangles, compute their intersection 
  - If they overlap, the maximum square that can fit inside
    the intersection has side = min(width, height)
  - Track the maximum possible side and return its area
